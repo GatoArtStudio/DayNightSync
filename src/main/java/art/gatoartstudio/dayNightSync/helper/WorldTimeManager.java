@@ -75,7 +75,6 @@ public class WorldTimeManager {
 
     private static void setTimeToWorld(Calendar calendar, World world) {
         long time = (1000L * calendar.get(Calendar.HOUR_OF_DAY)) + (16 * (calendar.get(Calendar.MINUTE) + 1)) - 6000;
-        Log.info("Tiempo ctual en el juego: " + time + ", tiempo: " + calendar.get(Calendar.HOUR_OF_DAY) + ":" + calendar.get(Calendar.MINUTE));
         world.setTime(time);
     }
 }
