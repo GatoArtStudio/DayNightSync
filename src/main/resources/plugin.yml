@@ -1,0 +1,21 @@
+name: DayNightSync
+version: '1.0-SNAPSHOT'
+main: art.gatoartstudio.dayNightSync.DayNightSync
+api-version: '1.20'
+prefix: DayNightSync
+load: STARTUP
+authors: [ GatoArtStudio ]
+description: Sincroniza el día y la noche del servidor con el mundo real.
+website: https://gatoartstudio.art/
+commands:
+  daynight:
+    description: "Manage the plugin from this command."
+    usage: "/daynight args"
+    aliases:
+      - dns
+      - dn
+    permission: daynightsync.admin
+permissions:
+  daynightsync.admin:
+    description: "You can use all the plugin commands."
+    default: op

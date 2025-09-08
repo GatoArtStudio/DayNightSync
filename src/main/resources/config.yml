@@ -1,0 +1,10 @@
+time:
+  # The time zone to which the game is synchronized for timing, format: Region/City, Type: String.
+  zone: "America/Bogota"
+  # Whether the plugin is enabled or not, Type: Boolean.
+  enable: false
+  # Interval in seconds at which the in-game time will be updated, Type: Integer, Valid: 1 or more.
+  update_interval: 5
+  # If you specify a world, you can uncomment the following line to indicate a world where only the plugin applies.
+  # If you leave it commented out, by default the plugin will apply the time to all worlds with NORMAL format, Type: String
+  # world_name: "world"
